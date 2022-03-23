@@ -35,7 +35,7 @@ jobs:
         copy Node.js.lnk C:\Users\Public\Desktop\Node.js.lnk
     - name: Membuat Tunnel.
       run: Start-Process Powershell -ArgumentList '-Noexit -Command ".\ngrok\ngrok.exe tcp --region ap 3389"'
-    - name: Connect Ke RDP Kamu CPU 16 Core - 16GB Ram - 600 SSD.
+    - name: Connect Ke RDP Kamu CPU 2 Core - 7GB Ram - 255 SSD.
       run: cmd /c start.bat
     - name: Berhasil Dibuat! Anda Bisa Menutup Tab Sekarang.
       run: cmd /c loop.bat
